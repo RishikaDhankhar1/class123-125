@@ -30,6 +30,7 @@ noseX=results[0].pose.nose.x;
 noseY=results[0].pose.nose.y;
 leftWristx=results[0].pose.leftWrist.x;
 rightWristx=results[0].pose.rightWrist.x;
+diffrence=floor(leftWristx-rightWristx);
 }
 }
 
